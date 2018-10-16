@@ -1,6 +1,6 @@
 # 使用方法
 
-## 一、二进制直接运行
+## 一、直接使用二进制
     1. 去 [release界面](https://github.com/orestonce/autocert/releases/) 下载对应版本的二进制到域名所在主机
     2. 确保主机80端口未被占用, 并且可被外部访问
     3. 运行autocert命令, 生成证书 `./autocert -ServerName example.com`
