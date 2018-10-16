@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "/pfkYB22L5MtzxrfIHQ0tWylnZw=",
+			"path": "golang.org/x/crypto/acme",
+			"revision": "0c41d7ab0a0ee717d4590a44bcb987dfd9e183eb",
+			"revisionTime": "2018-10-15T00:23:17Z"
+		},
+		{
+			"checksumSHA1": "Ayt033DfS42Y57XUoOAZvfGUyaA=",
+			"path": "golang.org/x/crypto/acme/autocert",
+			"revision": "0c41d7ab0a0ee717d4590a44bcb987dfd9e183eb",
+			"revisionTime": "2018-10-15T00:23:17Z"
+		}
+	],
+	"rootPath": "autocert"
+}
