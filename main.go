@@ -19,7 +19,7 @@ import (
 func main() {
 	serverName := flag.String(`ServerName`, ``, `server name`)
 	certType := flag.String(`CertType`, `ecdsa`, `cert type[rsa/ecdsa]`)
-	outFileName := flag.String(`OutFile`, ``, `output file, default ServerName.cert/ServerName.key`)
+	outFileName := flag.String(`OutFile`, ``, `output file, default ServerName.crt/ServerName.key`)
 
 	flag.Parse()
 	if *serverName == `` {
@@ -62,7 +62,7 @@ func main() {
 		})
 	}
 	panicIfError(err)
-	saveCertFile(cert, *outFileName+".cert", *outFileName+".key")
+	saveCertFile(cert, *outFileName+".crt", *outFileName+".key")
 	log.Println(`done`)
 }
 
